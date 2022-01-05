@@ -1,0 +1,987 @@
+/*=====================*/
+/* Header
+/*======================*/
+
+#header{
+  background-color: var(--color-background-1);
+  padding: 6rem 1rem 0 1rem;
+}
+
+#header nav{
+  background-color: var(--color-background-1);
+  padding: 0 1rem 0 1rem;
+}
+
+#header img{
+  max-height: 5rem;
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+
+#header #navigation a{
+  font-size: .75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  transition: color 0.3s ease-in-out;
+  transition: transform 0.05s ease-in-out;
+  padding: 0 1rem;
+}
+
+#header #navigation a:hover{
+  color: var(--color-text-1);
+  transform: scale(1.05);
+}
+
+#header .main-content{
+  padding: 5rem 0 2rem 0;
+  text-align: center;
+}
+
+#header .main-content h1{
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.25;
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  color: var(--color-text-1);
+  padding-bottom: 0.5rem;
+}
+
+#header .main-content h2{
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-accent-1);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding-bottom: 2rem;
+
+}
+
+#header .main-content p{
+  font-size: 1rem;
+  font-family: 'Lora', sans-serif;
+  color: var(--color-text-2);
+  line-height: 1.75;
+}
+
+#header .social-content{
+  padding-bottom: 5rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+#header .social-content .wrapper{
+  display: inline-block;
+  position: relative;
+}
+
+#header .social-content .wrapper::before{
+  content: '';
+  position: absolute;
+  top: -1.5rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-text-5);
+}
+
+#header .social-content a{
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+#header .social-content svg{
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--color-text-1);
+  transition: color 0.3s ease-in-out;
+  transition: transform 0.05s ease-in-out;
+}
+
+#header .social-content svg:hover{
+  color: var(--color-accent-1);
+  transform: scale(1.25);
+}
+
+#header .scroll-content{
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#header .scroll-content a{
+  text-decoration: none;
+}
+
+#header .scroll-content svg{
+  margin-right: 1rem;
+  color: var(--color-text-1);
+  transition: color 0.3s ease-in-out;
+  transition: transform 0.05s ease-in-out;
+}
+
+#header .scroll-content svg:hover{
+  color: var(--color-accent-1);
+  transform: scale(1.25);
+}
+
+#header .scroll-content span{
+  font-size: .75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-1);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+#header .scroll-content span:hover{
+  color: var(--color-accent-1);
+}
+
+#header .scroll-content span::after{
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-text-1);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+#header .scroll-content span:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+#header #navigation li.active a{
+  color: var(--color-text-1);
+  transition: background-color 0.5s ease-in-out;
+}
+
+/*=====================*/
+/* Participate
+/*======================*/
+
+#participate{
+  padding: 10rem 1rem 7rem 1rem;
+  font-family: 'Lora', sans-serif;
+  color: var(--color-text-5);
+  text-align: center;
+}
+
+#participate h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+  position: relative;
+  display: inline-block;
+}
+
+#participate h2::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-accent-1);
+}
+
+#participate h5{
+  margin-bottom: 2rem;
+  color: var(--color-text-4);
+}
+
+#participate p{
+  padding-bottom: 2rem;
+  text-align: justify;
+}
+
+#participate .custom-btn{
+  display: block;
+  background-color: var(--color-accent-1);
+  padding: 1.5rem 0;
+  text-decoration: none;
+  color: var(--color-text-1);
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#participate .custom-btn:hover{
+  background-color: var(--color-background-1);
+}
+
+/*=====================*/
+/* Research
+/*======================*/
+
+#research{
+  padding: 0rem 1rem 7rem 1rem;
+  font-family: 'Lora', sans-serif;
+  color: var(--color-text-5);
+  text-align: center;
+}
+
+#research h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+  position: relative;
+  display: inline-block;
+}
+
+#research h2::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-accent-1);
+}
+
+#research .item{
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+#research .item h5{
+  padding: 0 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+  color: var(--color-text-4);
+}
+
+#research .item h5::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--color-accent-1);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+#research .item h5::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 3rem;
+  height: 1px;
+  width: calc(25% - 3rem);
+  background-color: var(--color-text-3);
+}
+
+#research .item p{
+  padding: 0 3rem;
+  position: relative;
+  text-align: justify;
+}
+
+#research .item p::before{
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 1rem;
+  height: 90%;
+  width: 2px;
+  background-color: var(--color-accent-1);
+}
+
+#research .item a{
+  margin: 0 3rem;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-accent-1);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  position: relative;
+}
+
+#research .item a::after{
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-accent-1);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+#research .item a:hover::after {
+  transform: scaleX(1);
+}
+
+/*=====================*/
+/* Publications
+/*======================*/
+
+
+#publications{
+  padding: 0rem 1rem 7rem 1rem;
+  font-family: 'Lora', sans-serif;
+  color: var(--color-text-5);
+  text-align: center;
+}
+
+#publications h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+  position: relative;
+  display: inline-block;
+}
+
+#publications h2::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-accent-1);
+}
+
+#publications .item{
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+#publications .item h5{
+  margin-bottom: 2rem;
+  position: relative;
+  color: var(--color-text-4);
+}
+
+#publications .item h5::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0rem;
+  height: 1px;
+  width: 25%;
+  background-color: var(--color-text-3);
+}
+
+#publications .item .date{
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-5);
+  letter-spacing: 0.2rem;
+}
+
+#publications .item p{
+  text-align: justify;
+}
+
+#publications .item a{
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-accent-1);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  position: relative;
+}
+
+#publications .item a::after{
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-accent-1);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+#publications .item a:hover::after {
+  transform: scaleX(1);
+}
+
+
+/*=====================*/
+/* Director
+/*======================*/
+
+
+#director{
+  padding: 10rem 1rem 7rem 1rem;
+  font-family: 'Lora', sans-serif;
+  background-color: var(--color-background-1);
+  color: var(--color-text-2);
+  text-align: center;
+}
+
+#director h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-1);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+  position: relative;
+  display: inline-block;
+}
+
+#director h2::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-accent-1);
+}
+
+#director .row > div{
+  padding-bottom: 3rem;
+}
+
+#director h5{
+  margin: 2rem;
+  color: var(--color-text-1);
+}
+
+#director p{
+  text-align: justify;
+}
+
+#director .jamie-image img{
+  max-height: 15rem;
+}
+
+
+#director a{
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-accent-1);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  position: relative;
+}
+
+#director a::after{
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-accent-1);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+#director a:hover::after {
+  transform: scaleX(1);
+}
+
+
+/*=====================*/
+/* Members
+/*======================*/
+
+
+#members{
+  padding: 0rem 1rem 7rem 1rem;
+  font-family: 'Lora', sans-serif;
+  background-color: var(--color-background-1);
+  color: var(--color-text-2);
+  text-align: center;
+}
+
+#members h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-1);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+  position: relative;
+  display: inline-block;
+}
+
+#members h2::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-accent-1);
+}
+
+
+#members .item{
+  padding-bottom: 3rem;
+}
+
+#members .item img{
+  max-height: 8rem;
+  margin-bottom: 2rem;
+}
+
+#members .item h5{
+  color: var(--color-text-2);
+}
+
+#members .item a{
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-accent-1);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  position: relative;
+}
+
+#members .item a::after{
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-accent-1);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+#members .item a:hover::after {
+  transform: scaleX(1);
+}
+
+
+
+/*=====================*/
+/* News
+/*======================*/
+
+
+#news{
+  padding: 10rem 1rem 7rem 1rem;
+  font-family: 'Lora', sans-serif;
+  color: var(--color-text-5);
+  text-align: center;
+}
+
+#news h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+  position: relative;
+  display: inline-block;
+}
+
+#news h2::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-accent-1);
+}
+
+#news .item{
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+#news .item h5{
+  margin-bottom: 2rem;
+  position: relative;
+  color: var(--color-text-4);
+}
+
+#news .item h5::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0rem;
+  height: 1px;
+  width: 25%;
+  background-color: var(--color-text-3);
+}
+
+#news .item .date{
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-5);
+  letter-spacing: 0.2rem;
+}
+
+#news .item p{
+  text-align: justify;
+}
+
+#news .item a{
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-accent-1);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  position: relative;
+}
+
+#news .item a::after{
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-accent-1);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+#news .item a:hover::after {
+  transform: scaleX(1);
+}
+
+
+/*=====================*/
+/* Contact
+/*======================*/
+
+#contact{
+  padding: 10rem 1rem 10rem 1rem;
+  font-family: 'Lora', sans-serif;
+  background-color: var(--color-background-4);
+  color: var(--color-text-5);
+  text-align: center;
+}
+
+#contact h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+  position: relative;
+  display: inline-block;
+}
+
+#contact h2::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-accent-1);
+}
+
+
+#contact .main-content > div{
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+#contact h5 {
+  padding-bottom: 1rem;
+}
+
+#contact p {
+  line-height: 2;
+}
+
+#contact .line {
+  height: 80%;
+  width: 2px;
+  background-color: var(--color-text-3-1);
+  border-radius: 10px;
+}
+
+#contact .main-content a{
+  text-decoration: none;
+}
+
+#contact .main-content svg{
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--color-text-4);
+  transition: color 0.3s ease-in-out;
+  transition: transform 0.05s ease-in-out;
+}
+
+#contact .main-content svg:hover{
+  color: var(--color-accent-1);
+  transform: scale(1.25);
+}
+
+#contact .social-content{
+  padding-bottom: 3rem;
+}
+
+#contact .social-content a{
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+#contact .social-content svg{
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--color-text-4);
+  transition: color 0.3s ease-in-out;
+  transition: transform 0.05s ease-in-out;
+}
+
+#contact .social-content svg:hover{
+  color: var(--color-accent-1);
+  transform: scale(1.25);
+}
+
+#contact .info-content a{
+  text-decoration: none;
+  color: var(--color-text-1);
+  background-color: var(--color-accent-1);
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  transition: background-color 0.3s ease-in-out;
+}
+#contact .info-content a:hover{
+  background-color: var(--color-background-1);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #contact .line {
+    display: none;
+  }
+
+  #contact .info-content a {
+    border-top: solid 1px var(--color-text-1);
+  }
+}
+
+
+/*=====================*/
+/* Affiliations
+/*======================*/
+
+#affiliations{
+  padding: 0rem 1rem 0rem 1rem;
+  font-family: 'Lora', sans-serif;
+  color: var(--color-text-5);
+  text-align: center;
+  background-color: var(--color-background-4);
+  position: relative;
+}
+
+#affiliations::before{
+  content: '';
+  position: absolute;
+  top: -3rem;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  background-color: var(--color-text-3-1);
+}
+
+
+#affiliations h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-4);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+  position: relative;
+  display: inline-block;
+}
+
+#affiliations h2::after{
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: var(--color-accent-1);
+}
+
+
+#affiliations .row > div{
+  padding-bottom: 3rem;
+}
+
+#affiliations img{
+  max-width: 15rem;
+}
+
+
+#affiliations .camh img{
+  position: relative;
+  top: 0.5rem;
+}
+
+
+/*=====================*/
+/* Footer
+
+/*======================*/
+
+#footer{
+  background-color: var(--color-background-1);
+  padding: 5rem 1rem;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-2);
+}
+
+
+#footer .main-content > div{
+  padding-bottom: 2rem;
+  text-align: center;
+  line-height: 2;
+}
+
+#footer .main-content h2{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-accent-1);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding-bottom: 1rem;
+}
+
+#footer .site-links a{
+  text-decoration: none;
+  color: var(--color-text-2);
+  transition: color 0.3s ease-in-out;
+}
+
+#footer .site-links a:hover{
+  color: var(--color-accent-1);
+}
+
+#footer .site-links ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer .social-content a{
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+#footer .social-content svg{
+  width: 1.2rem;
+  height: 1.2rem;
+  color: var(--color-text-1);
+  transition: color 0.3s ease-in-out;
+  transition: transform 0.05s ease-in-out;
+}
+
+#footer .social-content svg:hover{
+  color: var(--color-accent-1);
+  transform: scale(1.25);
+}
+
+#footer .credits{
+  margin-top: 1rem;
+  position: relative;
+  color: var(--color-text-3);
+}
+
+#footer .credits::before{
+  content: '';
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-text-5);
+}
+
+#footer .credits #copyright{
+  position: relative;
+  margin-right: 3rem;
+}
+
+#footer .credits #copyright::after{
+  content: '';
+  position: absolute;
+  top: 0rem;
+  right: -1.5rem;
+  height: 100%;
+  width: 2px;
+  background-color: var(--color-text-5);
+}
+
+#footer .credits #designedby{
+  font-family: 'Kalam', cursive;
+}
+
+#footer .up-arrow{
+  position: absolute;
+  top: calc(0% - 10px);
+  right:calc(0% - 5px);
+
+}
+
+#footer .up-arrow svg{
+  width: 3rem;
+  height: 3rem;
+  color: var(--color-text-1);
+  transition: color 0.3s ease-in-out;
+  transition: transform 0.05s ease-in-out;
+}
+
+#footer .up-arrow svg:hover{
+  color: var(--color-accent-1);
+  transform: scale(1.25);
+}
+
+@media only screen and (max-width: 575px) {
+
+  #footer .credits #copyright::after{
+    content: none;
+  }
+
+  #footer .credits #designedby{
+    display: block;
+  }
+}
