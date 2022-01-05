@@ -39,6 +39,7 @@
   transform: scale(1.05);
 }
 
+
 #header .main-content{
   padding: 5rem 0 2rem 0;
   text-align: center;
@@ -426,6 +427,24 @@
   transform: scaleX(1);
 }
 
+#publications .custom-btn{
+  display: block;
+  background-color: var(--color-accent-1);
+  padding: 1.5rem 0;
+  text-decoration: none;
+  color: var(--color-text-1);
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#publications .custom-btn:hover{
+  background-color: var(--color-background-1);
+}
+
+
 
 /*=====================*/
 /* Director
@@ -554,6 +573,17 @@
   color: var(--color-text-2);
 }
 
+#members .item .designation{
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+#members .item .affiliation{
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+
 #members .item a{
   text-decoration: none;
   font-size: 0.75rem;
@@ -580,7 +610,23 @@
   transform: scaleX(1);
 }
 
+#members .custom-btn{
+  display: block;
+  background-color: var(--color-accent-1);
+  padding: 1.5rem 0;
+  text-decoration: none;
+  color: var(--color-text-1);
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
 
+#members .custom-btn:hover{
+  background-color: var(--color-background-2);
+  color: var(--color-background-1);
+}
 
 /*=====================*/
 /* News
@@ -674,6 +720,22 @@
 }
 
 
+#news .custom-btn{
+  display: block;
+  background-color: var(--color-accent-1);
+  padding: 1.5rem 0;
+  text-decoration: none;
+  color: var(--color-text-1);
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#news .custom-btn:hover{
+  background-color: var(--color-background-1);
+}
 /*=====================*/
 /* Contact
 /*======================*/
