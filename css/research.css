@@ -1,0 +1,204 @@
+/*=====================*/
+/* Hero
+/*======================*/
+
+#hero{
+    text-align: center;
+    padding: 10rem 1rem 10rem 1rem;
+    color: var(--color-text-5);
+}
+
+#hero h1{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    color: var(--color-text-1);
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    #hero h1{
+      font-size: 3rem;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1200px) {
+    #hero h1{
+        font-size: 4rem;
+    }
+  }
+
+  #hero p{
+    font-size: 1rem;
+    font-family: 'Lora', sans-serif;
+    color: var(--color-text-2);
+    line-height: 1.75;
+  }
+
+/*=====================*/
+/* About
+/*======================*/
+
+#about{
+    padding: 10rem 1rem 10rem 1rem;
+    font-family: 'Lora', sans-serif;
+    color: var(--color-text-5);
+    text-align: center;
+}
+
+#about h2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-4);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 5rem;
+    position: relative;
+    display: inline-block;
+}
+
+#about h2::after{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-accent-1);
+}
+
+#about p{
+    text-align: justify;
+}
+  
+
+/*=====================*/
+/* Symptoms
+/*======================*/
+
+#symptoms{
+    padding: 10rem 1rem 10rem 1rem;
+    font-family: 'Lora', sans-serif;
+    background-color: #f2f2f2;
+    color: var(--color-text-5);
+    text-align: center;
+}
+
+#symptoms h2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-4);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 5rem;
+    position: relative;
+    display: inline-block;
+}
+
+#symptoms h2::after{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-accent-1);
+}
+
+#symptoms p{
+    text-align: justify;
+}
+
+#symptoms ul{
+    text-align: left;
+}
+  
+
+/*=====================*/
+/* Treatment
+/*======================*/
+
+
+#treatment{
+    padding: 10rem 1rem 10rem 1rem;
+    font-family: 'Lora', sans-serif;
+    color: var(--color-text-5);
+    text-align: center;
+}
+
+#treatment h2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-4);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 5rem;
+    position: relative;
+    display: inline-block;
+}
+
+#treatment h2::after{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-accent-1);
+}
+
+#treatment p{
+    text-align: justify;
+}
+
+#treatment p#faq{
+    padding: 1rem 0;
+}
+
+
+#treatment .accordion{
+    text-align: left;
+}
+
+#treatment .accordion-button{
+    padding: 1.5rem 1rem;
+}
+
+#treatment .accordion-body{
+    padding: 2rem;
+}
+
+/*=====================*/
+/* Resources
+/*======================*/
+
+
+#resources{
+    padding: 10rem 1rem 10rem 1rem;
+    font-family: 'Lora', sans-serif;
+    background-color: #f2f2f2;
+    color: var(--color-text-5);
+    text-align: center;
+}
+
+#resources h2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-4);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 5rem;
+    position: relative;
+    display: inline-block;
+}
+
+#resources h2::after{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-accent-1);
+}
