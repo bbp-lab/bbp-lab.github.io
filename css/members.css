@@ -4,7 +4,7 @@
 
 #hero{
     text-align: center;
-    padding: 10rem 1rem 10rem 1rem;
+    padding: 5rem 1rem 5rem 1rem;
     color: var(--color-text-5);
 }
 
@@ -20,56 +20,20 @@
     #hero h1{
       font-size: 3rem;
     }
-  }
+}
   
   
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     #hero h1{
         font-size: 4rem;
     }
-  }
+}
 
-  #hero p{
+#hero p{
     font-size: 1rem;
     font-family: 'Lora', sans-serif;
     color: var(--color-text-2);
     line-height: 1.75;
-  }
-
-/*=====================*/
-/* About
-/*======================*/
-
-#about{
-    padding: 10rem 1rem 10rem 1rem;
-    font-family: 'Lora', sans-serif;
-    color: var(--color-text-5);
-    text-align: center;
-}
-
-#about h2{
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    color: var(--color-text-4);
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-    margin-bottom: 5rem;
-    position: relative;
-    display: inline-block;
-}
-
-#about h2::after{
-    content: '';
-    position: absolute;
-    bottom: -1rem;
-    left: 0;
-    height: 3px;
-    width: 100%;
-    background-color: var(--color-accent-1);
-}
-
-#about p{
-    text-align: justify;
 }
   
 /*=====================*/
@@ -77,14 +41,14 @@
 /*======================*/
 
 main{
-    padding: 10rem 1rem 0 1rem;
+    padding: 7rem 1rem 0 1rem;
     font-family: 'Lora', sans-serif;
     color: var(--color-text-5);
     text-align: justify;
 }
 
 main .item{
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
   }
   
 main .item img{
@@ -110,7 +74,7 @@ main .item .affiliation{
 
 main .item .about{
     margin-top: 0rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 main .social-content{
@@ -123,20 +87,22 @@ main .social-content .wrapper{
     position: relative;
 }
 
-main .social-content a{
-    text-decoration: none;
+main .social-content span{
     margin: 0 0.5rem;
 }
 
 main .social-content svg{
     width: 1.5rem;
     height: 1.5rem;
-    color: var(--color-text-5);
+    /*color: var(--color-text-5);*/
+    color: var(--color-accent-1);
     transition: color 0.3s ease-in-out;
     transition: transform 0.05s ease-in-out;
 }
 
+/*
 main .social-content svg:hover{
     color: var(--color-accent-1);
     transform: scale(1.25);
 }
+*/
