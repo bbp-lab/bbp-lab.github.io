@@ -1,0 +1,153 @@
+main > section{
+    padding: 3.5rem 1rem;
+    text-align: center;
+}
+
+main > section > .section-content{
+    margin-top: 5rem;
+    text-align: justify;
+}
+
+main > section:first-child{
+    padding-top: 7rem;
+}
+main > section:last-child{
+    padding-bottom: 7rem;
+}
+
+/*=======================================================================*/
+/*Header*/
+/*=======================================================================*/
+
+
+#home{
+    background-color: var(--black1);
+    padding: calc(7rem + 3rem) 1rem 7rem 1rem;
+    text-align: center;
+}
+
+#home > .home-content > h1{
+    color: var(--white1);
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    margin-bottom: 1rem;
+    line-height: 1.25;
+}
+
+#home > .home-content > p{
+    color: var(--white2);
+    line-height: 1.8;
+    letter-spacing: 0.05rem;
+    text-align: justify;
+    text-align-last: center;
+}
+
+@media only screen and (min-width: 768px) {
+    #home > .home-content{
+        padding: 0 5%;
+    }
+    #home > .home-content > h1{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #home > .home-content{
+        padding: 0 10%;
+    }
+    #home > .home-content > h1{
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #home > .home-content{
+        padding: 0 15%;
+    }
+    #home > .home-content > h1{
+        font-size: 4rem;
+    }
+}
+
+/*=======================================================================*/
+/*Intro*/
+/*=======================================================================*/
+
+
+#intro .grid-wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 3rem;
+    justify-content: center;
+}
+
+
+#intro img{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 15rem;
+    border-radius: 50%;
+}
+
+#intro .title{
+    font-weight: 600;
+}
+
+#intro .affiliation{
+    font-style: italic;
+    margin-bottom: 1rem;
+    
+}
+
+#intro h2, .title, .affiliation, .email{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #intro .grid-wrapper{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #intro h2, .title, .affiliation{
+        text-align: left;
+    }
+
+}
+
+/*=======================================================================*/
+/*About*/
+/*=======================================================================*/
+
+#about p{
+    margin-bottom: 1rem;
+}
+
+
+/*=======================================================================*/
+/*Research*/
+/*=======================================================================*/
+
+#research p{
+    margin-bottom: 1rem;
+}
+
+/*=======================================================================*/
+/*Links*/
+/*=======================================================================*/
+
+#links p{
+    text-align: left;
+}
+
+#links span{
+    font-weight: bold;
+}
+
+#links a{
+    font-style: italic;
+    color: blue;
+}
