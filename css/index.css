@@ -128,7 +128,7 @@
 /*Participate*/
 /*=======================================================================*/
 
-
+/*
 #participate{
     padding: 7rem 1rem;
     text-align: center;
@@ -186,13 +186,13 @@ aside > .aside-content h2{
     margin-bottom: 1rem;
     color: var(--black1);
 }
-
+*/
 
 /*=======================================================================*/
-/*Research*/
+/*Research Topics*/
 /*=======================================================================*/
 
-#research .grid-wrapper{
+#research-topics .grid-wrapper{
     display: grid;
     grid-template-columns: auto;
     grid-gap: 3rem;
@@ -200,26 +200,36 @@ aside > .aside-content h2{
 
 @media only screen and (min-width: 768px) {
 
-    #research .grid-wrapper{
+    #research-topics .grid-wrapper{
         grid-template-columns: 1fr 1fr;
     }
 }
 
-#research .item h2{
+#research-topics .item h2{
     position: relative;
     padding-left: 3rem;
 }
 
-#research .item p{
+#research-topics .item p{
     position: relative;
     padding-left: 3rem;
 }
 
-#research .item a{
+#research-topics .item a{
     margin-left: 3rem;
 }
 
-#research .item h2::before{
+#research-topics .item a.disabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+#research-topics .item a.disabled::after{
+    content: none;
+}
+#research-topics .item h2::before{
     content: '';
     position: absolute;
     top: 0;
@@ -230,7 +240,7 @@ aside > .aside-content h2{
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
   
-#research .item p::before{
+#research-topics .item p::before{
     content: '';
     position: absolute;
     top: 1rem;
@@ -240,8 +250,73 @@ aside > .aside-content h2{
     background-color: var(--accent1);
 }
   
+/*=======================================================================*/
+/*Research Studies*/
+/*=======================================================================*/
 
+#research-studies{
+    background-color: var(--gray1);
+}
 
+#research-studies .grid-wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #research-studies .grid-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#research-studies .item h2{
+    position: relative;
+    padding-left: 3rem;
+}
+
+#research-studies .item h3{
+    position: relative;
+    padding-left: 3rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Lora', sans-serif;
+    margin-bottom: 1rem;
+    color: var(--black1);
+}
+
+#research-studies .item p{
+    position: relative;
+    padding-left: 3rem;
+}
+
+#research-studies .item a{
+    margin-left: 3rem;
+}
+
+#research-studies .item h2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--accent1);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+  
+#research-studies .item p::before{
+    content: '';
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    height: calc(100% - 1rem);
+    width: 2px;
+    background-color: var(--accent1);
+}
+  
 /*=======================================================================*/
 /*Team*/
 /*=======================================================================*/

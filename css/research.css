@@ -136,11 +136,39 @@ main > section p{
 /*About*/
 /*=======================================================================*/
 
-#email{
+#about > h2{
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    #about > h2{
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #about > h2{
+        padding: 0 10%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #about > h2{
+        padding: 0 15%;
+    }
+}
+
+#about > #email{
     color: var(--accent2);
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
+
+
 /*=======================================================================*/
 /*Symptoms*/
 /*=======================================================================*/
@@ -153,3 +181,6 @@ main > section p{
 /*Resources*/
 /*=======================================================================*/
 
+#resources a{
+    color: var(--accent2)
+}
