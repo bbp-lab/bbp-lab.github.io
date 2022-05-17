@@ -162,12 +162,18 @@ main > section p{
     }
 }
 
-#about > #email{
+#email{
     color: var(--accent2);
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
 
+#top-email{
+    margin: 1rem 0 0 0;
+    color: var(--accent2);
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
 
 /*=======================================================================*/
 /*Symptoms*/

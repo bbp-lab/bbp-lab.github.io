@@ -245,7 +245,7 @@ aside > .aside-content h2{
     position: absolute;
     top: 1rem;
     left: 1rem;
-    height: calc(100% - 1rem);
+    height: calc(100% - 2rem);
     width: 2px;
     background-color: var(--accent1);
 }
@@ -296,6 +296,11 @@ aside > .aside-content h2{
     margin-left: 3rem;
 }
 
+#research-studies .item #email{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
 #research-studies .item h2::before{
     content: '';
     position: absolute;
@@ -310,9 +315,9 @@ aside > .aside-content h2{
 #research-studies .item p::before{
     content: '';
     position: absolute;
-    top: 1rem;
+    top: 0rem;
     left: 1rem;
-    height: calc(100% - 1rem);
+    height: calc(100% - 0rem);
     width: 2px;
     background-color: var(--accent1);
 }
