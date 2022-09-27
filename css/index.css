@@ -129,6 +129,7 @@
 /*=======================================================================*/
 
 /*
+
 #participate{
     padding: 7rem 1rem;
     text-align: center;
@@ -186,6 +187,7 @@ aside > .aside-content h2{
     margin-bottom: 1rem;
     color: var(--black1);
 }
+
 */
 
 /*=======================================================================*/
@@ -320,6 +322,16 @@ aside > .aside-content h2{
     height: calc(100% - 0rem);
     width: 2px;
     background-color: var(--accent1);
+}
+
+
+#research-studies #hiring-participants h2{
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'Lora', sans-serif;
+    text-align: center;
+    color: var(--accent2);
 }
   
 /*=======================================================================*/
