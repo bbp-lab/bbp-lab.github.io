@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Body Perception</title>
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/research.css">
+</head>
+
+<body>
+    
+    <header>
+
+
+        <!-- ====================================================== 
+        Navbar
+        ======================================================= -->
+
+        <nav>
+
+            <div id="nav-logo">
+                <img src="../assets/logo/bbp.png" alt="BBP">
+            </div>
+
+            <ul id="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#research-topics">Research</a></li>
+                <li><a href="../index.html#research-studies">Participate</a></li>
+                <li><a href="../index.html#team">Team</a></li>
+                <li><a href="../index.html#publications">Publications</a></li>
+                <li><a href="../index.html#news">News</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+
+            <div id="nav-toggler">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>
+
+        </nav>
+
+        <!-- ====================================================== 
+        Home
+        ======================================================= -->
+
+        <section id="home">
+
+            <div class="home-content">
+
+                <h1>Somatomap</h1>
+
+                <p>Our research aims to better understand how individuals experience their own body in people with gender dysphoria, and how this relates to the gender-dentified body repsentation between cultures and societies.</p>
+
+            </div>
+
+        </section>
+
+    </header>
+
+
+    <!-- ====================================================== 
+    Selection
+    ======================================================= -->
+
+
+    <ul id="selectors">
+
+        <li><a class="inactive" href="somatomap.html"><span class="blink">Information</span></a></li>
+        <li><a class="active">Participate</a></li>
+
+    </ul>
+
+
+    
+    <main>
+
+        <!-- ====================================================== 
+        About
+        ======================================================= -->
+
+        <section id="about">
+
+            <h2>Gender identity and body perception in individuals with gender dysmorphia.</h2>
+
+            <p id="top-email">somatomap@camh.ca</p>
+
+            <div class="section-content">
+
+                <p>For binary transgender and nonbinary individuals with gender dysphoria, the difference between their body associated with their birth-assigned sex – what they see in the mirror – and their internal gender-identified body is a key defining part of their experience and contributes to their dysphoria. Currently, no clinical or research tool exists to capture and quantify the diverse experiences of one’s current body and one’s gender-identified body, across a range of gender identities.</p>
+
+                <p>This research study aims to create a novel, visually based digital avatar tool to understand and measure individuals’ experiences of their bodies. The results from this study will help us understand potential differences of gender-related body representations between cultures and societies. Our goal with this study is to improve transgender healthcare, for example being able to plan, and monitor outcomes of gender-affirming treatments in a more personalized way. </p>
+
+                <p>Participation in this study involves 2 study visits one month apart (no more than 4 hours in total). The informed consent discussion will be done online via secure videoconferencing. Part of visit 1 will require an in-person visit at the Centre for Addiction and Mental Health (CAMH) depending on COVID-19 protocols, but you can do the rest of the visit 1 as well as visit 2 through videoconferencing. </p>
+
+                <p>Participation in the study involves: 
+                    <li>Completing clinical interview and assessments</li>
+                    <li>Taking photographs and measurements of your body, and </li>
+                    <li>Doing computer body perception tasks</li>
+                </p>
+                    
+                <p>You will be compensated for your time should you wish to participate and complete all study visits. </p>
+
+                <p>If you are interested in participating in this study, or if you would like to get more information, please contact the research team at <span id="email">somatomap@camh.ca</span></p>
+                
+                <p>The security of information sent by e-mail cannot be guaranteed. Please do not communicate personal sensitive information by e-mail. </p>
+
+                <p>This study is supported by a grant from the <b>US National Institutes of Health</b>.</p>
+
+                <p>CAMH REB# 073/2021</p>
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+
+            <p id="copyright">© 2022 University of Toronto</p>
+
+        </div>
+
+    </footer>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>
