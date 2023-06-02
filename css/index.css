@@ -375,6 +375,8 @@ aside > .aside-content h2{
 
 #team .img-member{
     max-width: 10rem;
+    position: relative;
+    overflow: hidden;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
