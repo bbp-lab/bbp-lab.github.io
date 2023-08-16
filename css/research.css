@@ -48,7 +48,7 @@ main > section p{
     color: var(--white2);
     line-height: 1.8;
     letter-spacing: 0.05rem;
-    text-align: left;
+    text-align: center;
     text-align-last: center;
 }
 
