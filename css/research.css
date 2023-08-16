@@ -5,7 +5,7 @@ main > section{
 
 main > section > .section-content{
     margin-top: 5rem;
-    text-align: justify;
+    text-align: left;
 }
 
 main > section:first-child{
