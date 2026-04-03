@@ -476,11 +476,14 @@ aside > .aside-content h2{
     width: 100%;
     height: 20rem;
     margin-bottom: 2rem;
+    overflow: hidden;
 }
 
 #news .banner > img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 #news .item > h2{
