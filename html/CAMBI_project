@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Body Perception - Body Image Model</title>
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/research.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XT8TBWK7D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-9XT8TBWK7D');
+    </script>
+           <style>
+          #top-email a {
+            font-size: 2.5rem;
+          }
+        </style>
+</head>
+
+<body>
+    
+    <header>
+
+
+        <!-- ====================================================== 
+        Navbar
+        ======================================================= -->
+
+        <nav>
+
+            <div id="nav-logo">
+                <img src="../assets/logo/bbp.png" alt="BBP">
+            </div>
+
+            <ul id="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#research-topics">Research</a></li>
+                <li><a href="../index.html#research-studies">Participate</a></li>
+                <li><a href="../index.html#team">Team</a></li>
+                <li><a href="../index.html#publications">Publications</a></li>
+                <li><a href="../index.html#news">News</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+
+            <div id="nav-toggler">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>
+
+        </nav>
+
+        <!-- ====================================================== 
+        Home
+        ======================================================= -->
+
+        <section id="home">
+
+            <div class="home-content">
+
+                <h1>Body Dysmorphic Disorder</h1>
+
+                <p>Our research aims to better understand how visual and emotional information is processed in people with body dysmorphic disorder, and how this relates to the symptoms they experience and their clinical outcomes.</p>
+
+            </div>
+
+        </section>
+
+    </header>
+
+
+    <!-- ====================================================== 
+    Selection
+    ======================================================= -->
+
+
+    <ul id="selectors">
+
+        <li><a class="inactive" href="bdd_general.html"><span class="blink">Information</span></a></li>
+        <li><a class="active">Participate VISMOD</a></li>
+        <li><a class="active">Participate CAMBI</a></li>
+
+    </ul>
+
+
+    <main>
+
+        <!-- ====================================================== 
+        About
+        ======================================================= -->
+
+        <section id="about">
+
+            <h2>Creating a comprehensive brain model of body image in health and disease</h2>
+
+            <p id="top-email"><a href = "mailto:bdd.research@camh.ca?subject=CAMH%20Research%20Study&body=Hi%2C%20can%20I%20get%20more%20information%20about%20this%20study%3F">bdd.research@camh.ca</a></p>
+            
+            <div class="section-content" id="flyer">
+                <img src="../assets/ads/Flyer_CAMBI_v2.0.jpg" alt="">
+            </div>
+
+            <div class="section-content">
+
+                <p>Having an unclear or mistaken view of your own body size or shape is a key part of body image disorders, such as body dysmorphic disorder (BDD), anorexia nervosa (AN), and other eating disorders. People with AN or BDD often feel very upset about their appearance. This can lead to frequent checking, strict calorie cutting, too much exercise, or even unnecessary cosmetic procedures. However, we still do not fully understand how people form an image of their own bodies in the first place.
+
+                <p>The goal of this study is to learn what causes people to have an inaccurate internal picture of their body. We want to understand how the brain, eye movements, and emotions affect body size perception in people with AN, people with BDD, and people without body image problems. We also want to learn why people differ in how they estimate body size, and how these differences relate to body image concerns and other personal or clinical factors.
+
+                <p>We are looking for participants ages 18 to 40 who have been diagnosed with AN, meet criteria for BDD, or are healthy volunteers. The study includes two visits.
+
+                <p>Participation in this study involves:
+<p> -	Completing clinical interview and assessments, 
+<p> -	1 functional Magnetic Resonance Imaging (fMRI) scan
+
+<p>You will be compensated for your time should you wish to participate and complete all study visits.</p>
+                
+                <p>If you are interested in participating in this study, or if you would like to get more information, please contact the research team at <span id="email"><a href = "mailto:somatomap@camh.ca?subject=CAMH%20Research%20Study&body=Hi%2C%20can%20I%20get%20more%20information%20about%20this%20study%3F">somatomap@camh.ca</a></span></p>
+
+   <!--             <p>This study is supported by a grant from the <b>US National Institutes of Health (NIH)</b>.</p> -->
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+
+            <p id="copyright">© 2025 University of Toronto</p>
+
+        </div>
+
+    </footer>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>
