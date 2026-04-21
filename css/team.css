@@ -139,3 +139,12 @@ main > section > .section-content{
         justify-content: left;
     }
 }
+
+.former-team img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.former-team img:hover {
+    filter: grayscale(0%);
+}
