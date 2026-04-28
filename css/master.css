@@ -36,13 +36,41 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-  
+
+html{
+    /* Offset anchor scrolls so fixed nav doesn't overlap section headings */
+    scroll-padding-top: 6rem;
+}
 
 body{
     font-size: 1rem;
     font-family: 'Lora', sans-serif;
     line-height: 1.5rem;
     color: var(--black2);
+    overflow-x: hidden;
+}
+
+/* Prevent any image or iframe from overflowing on small screens */
+img,
+iframe,
+svg{
+    max-width: 100%;
+}
+
+img{
+    height: auto;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
 
 li{
@@ -176,8 +204,14 @@ button:focus-visible,
 /*=======================================================================*/
 
 main > section{
-    padding: 7rem 1rem;
+    padding: 5rem 1rem;
     text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+    main > section{
+        padding: 7rem 1rem;
+    }
 }
 
 main > section > h1{
@@ -200,8 +234,14 @@ main > section > h1::after{
 }
 
 main > section > .section-content{
-    margin-top: 7rem;
+    margin-top: 4rem;
     text-align: justify;
+}
+
+@media only screen and (min-width: 768px){
+    main > section > .section-content{
+        margin-top: 7rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
