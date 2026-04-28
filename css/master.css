@@ -111,22 +111,64 @@ nav a:hover{
     display: none;
 }
 
+#nav-links.is-open{
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 0.5rem;
+}
+
 @media only screen and (min-width: 992px) {
     nav{
         display: flex;
         align-items: center;
     }
 
-    #nav-links{
+    #nav-links,
+    #nav-links.is-open{
         display: flex;
         width: 100%;
         justify-content: flex-end;
         align-items: center;
+        margin-top: 0;
+        border-top: 0;
+        padding-top: 0;
     }
 
     #nav-toggler{
         display: none;
     }
+}
+
+/* Visible focus styles for keyboard users */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible{
+    outline: 2px solid var(--accent2);
+    outline-offset: 3px;
+}
+
+/* Skip link for screen readers / keyboard nav */
+.skip-link{
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 100;
+}
+.skip-link:focus{
+    left: 1rem;
+    top: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    background: var(--white1);
+    color: var(--black1);
+    border: 2px solid var(--accent2);
+    border-radius: 4px;
 }
 
 /*=======================================================================*/

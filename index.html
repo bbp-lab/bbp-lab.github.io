@@ -20,18 +20,20 @@
 </head>
 
 <body>
-    
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <header>
 
 
-        <!-- ====================================================== 
+        <!-- ======================================================
         Navbar
         ======================================================= -->
 
-        <nav>
+        <nav aria-label="Primary">
 
             <div id="nav-logo">
-                <img src="./assets/logo/bbp.png" alt="BBP">
+                <img src="./assets/logo/bbp.png" alt="Brain, Body & Perception lab logo">
             </div>
 
             <ul id="nav-links">
@@ -44,8 +46,8 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
-            <div id="nav-toggler">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <div id="nav-toggler" role="button" tabindex="0" aria-label="Toggle navigation menu" aria-controls="nav-links" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                 </svg>
             </div>
@@ -67,7 +69,7 @@
                 -->
                 <p>Our mission is to advance the understanding of the brain, behaviour, and individuals' experiences, driving the development of innovative and effective treatments for those with mental illness.</p>
                 
-                <div id="scroll-down-animation">
+                <div id="scroll-down-animation" aria-hidden="true">
                     <span class="mouse">
                       <span class="move"></span>
                     </span>
@@ -80,10 +82,10 @@
     </header>
 
 
-    <main>
+    <main id="main-content">
 
-        
-        <!-- ====================================================== 
+
+        <!-- ======================================================
         Participate
         ======================================================= -->
 
@@ -121,7 +123,7 @@
 
                         <a href="./html/bdd_general.html" class="more">Read More</a>
                         <a href="./html/bdd_project.html" class="more">Participate VISMOD</a>
-                        <a href="./html/oject.html" class="more">Participate CAMBI</a>
+                        <a href="./html/CAMBI_project.html" class="more">Participate CAMBI</a>
                         <!-- <a href="./html/tms_project.html" class="more">Participate TMS</a> -->
 
                     </div>
@@ -184,8 +186,8 @@
                             
                         <br><br>
                     
-                        Email: <span id="email"><a href = "mailto: somatomap@camh.ca">somatomap@camh.ca</a></span>
-                        
+                        Email: <span class="email"><a href="mailto:somatomap@camh.ca">somatomap@camh.ca</a></span>
+
                         </p>
 
                         <a href="./html/CAMBI_project.html" class="more">Participate</a>
@@ -202,7 +204,7 @@
                             
                         <br><br>
                     
-                        Email: <span id="email"><a href = "mailto: bbp.lab@camh.ca">bbp.lab@camh.ca</a></span>
+                        Email: <span class="email"><a href="mailto:bbp.lab@camh.ca">bbp.lab@camh.ca</a></span>
                         
                         </p>
 
@@ -220,7 +222,7 @@
 
                         <br><br>
                         
-                        Email: <span id="email"><a href = "mailto: bdd.research@camh.ca">bdd.research@camh.ca</a></span>
+                        Email: <span class="email"><a href="mailto:bdd.research@camh.ca">bdd.research@camh.ca</a></span>
                         
                         </p>
 
@@ -237,7 +239,7 @@
 
                         <br><br>
                         
-                        Email: <span id="email"><a href = "mailto: bdd.empac@camh.ca">bdd.empac@camh.ca</a></span>
+                        Email: <span class="email"><a href="mailto:bdd.empac@camh.ca">bdd.empac@camh.ca</a></span>
                         
                         </p>
 
@@ -250,12 +252,12 @@
 
                         <h3>Investigating the brain endocannabinoid system in obsessive-compulsive disorder.</h3>
 
-                        <p>Early research suggests that the brain’s endocannabinoid system may be involved in certain obsessive-compulsive disorder (OCD) symptoms as well as fear extinction, important for exposure-based treatments. Dr. Kloiber, Dr. Feusner, and their team CAMH are conducting the first neuroimaing study of the endocannabinoid system in adults with OCD using PET (positron emission tomography). Results of this study will help us better understand the biological processes involved in OCD and may guide development of targeted, future treatments.</p>
+                        <p>Early research suggests that the brain’s endocannabinoid system may be involved in certain obsessive-compulsive disorder (OCD) symptoms as well as fear extinction, important for exposure-based treatments. Dr. Kloiber, Dr. Feusner, and their team at CAMH are conducting the first neuroimaging study of the endocannabinoid system in adults with OCD using PET (positron emission tomography). Results of this study will help us better understand the biological processes involved in OCD and may guide development of targeted, future treatments.
 
                         <br><br>
-                        
-                        Email: <span id="email"><a href = "mailto: 	pet.ocd@camh.ca">pet.ocd@camh.ca</a></span>
-                        
+
+                        Email: <span class="email"><a href="mailto:pet.ocd@camh.ca">pet.ocd@camh.ca</a></span>
+
                         </p>
 
                         <a href="https://www.camh.ca/en/science-and-research/research-connect/do-you-experience-obsessions-and-or-compulsions-reb-097-2023" 
@@ -276,7 +278,7 @@
 
                         <br><br>
                         
-                        Email: <span id="email"><a href = "mailto: somatomap@camh.ca">somatomap@camh.ca</a></span>
+                        Email: <span class="email"><a href = "mailto: somatomap@camh.ca">somatomap@camh.ca</a></span>
                         
                         </p>
 
@@ -334,7 +336,7 @@
 
                         <div class="item">
 
-                            <img src="./assets/members/kirk.jpg" class="img-member" alt="">
+                            <img src="./assets/members/kirk.jpg" class="img-member" alt="Portrait of Kirk Geier">
                             <h2>Kirk Geier</h2>
                             <p>Scientific Associate</p>
                             <p>Centre for Addiction and Mental Health</p>
@@ -344,7 +346,7 @@
                         
                         <div class="item">
 
-                            <img src="./assets/members/hayden.jpg" class="img-member" alt="">
+                            <img src="./assets/members/hayden.jpg" class="img-member" alt="Portrait of Hayden Peel">
                             <h2>Hayden Peel</h2>
                             <p>Postdoctoral Fellow</p>
                             <p>Centre for Addiction and Mental Health</p>
@@ -355,7 +357,7 @@
                         
                         <div class="item">
 
-                            <img src="./assets/members/anand.jpg" class="img-member" alt="">
+                            <img src="./assets/members/anand.jpg" class="img-member" alt="Portrait of Anand Barot">
                             <h2>Anand Barot</h2>
                             <p>Clinical Fellow</p>
                             <p>Centre for Addiction and Mental Health</p>
@@ -365,7 +367,7 @@
                         
                         <div class="item">
 
-                            <img src="./assets/members/fan.JPG" class="img-member" alt="">
+                            <img src="./assets/members/fan.JPG" class="img-member" alt="Portrait of Serenity (Fan) Shen">
                             <h2>Serenity (Fan) Shen</h2>
                             <p>Research Analyst</p>
                             <p>Centre for Addiction and Mental Health</p>
@@ -376,7 +378,7 @@
 
                         <div class="item">
 
-                            <img src="./assets/members/joel.jpg" class="img-member" alt="">
+                            <img src="./assets/members/joel.jpg" class="img-member" alt="Portrait of Joel Diaz">
                             <h2>Joel Diaz</h2>
                             <p>Doctoral Candidate</p>
                             <p>University of Toronto</p>
@@ -386,7 +388,7 @@
 
                         <div class="item">
 
-                            <img src="./assets/members/kathy.jpg" class="img-member" alt="">
+                            <img src="./assets/members/kathy.jpg" class="img-member" alt="Portrait of Kathy Zhang">
                             <h2>Kathy Zhang</h2>
                             <p>Doctoral Student</p>
                             <p>University of Toronto</p>
@@ -396,7 +398,7 @@
                         
                         <div class="item">
 
-                            <img src="./assets/members/sonia.jpg" class="img-member" alt="">
+                            <img src="./assets/members/sonia.jpg" class="img-member" alt="Portrait of Sonia (Peiyun) Song">
                             <h2>Sonia (Peiyun) Song</h2>
                             <p>Research Co-op Student</p>
                             <p>University of Toronto</p>
@@ -405,7 +407,7 @@
 
                         <div class="item">
 
-                            <img src="./assets/members/aishu.jpg" class="img-member" alt="">
+                            <img src="./assets/members/aishu.jpg" class="img-member" alt="Portrait of Aishu (Aishvinigaa) Sathananthan">
                             <h2>Aishu (Aishvinigaa) Sathananthan</h2>
                             <p>Research Co-op Student</p>
                             <p>University of Toronto</p>
@@ -414,7 +416,7 @@
 
                         <div class="item">
 
-                            <img src="./assets/members/deedee.jpg" class="img-member" alt="">
+                            <img src="./assets/members/deedee.jpg" class="img-member" alt="Portrait of DeeDee Ng">
                             <h2>DeeDee Ng</h2>
                             <p>Student</p>
                             <p>University of Toronto</p>
@@ -423,7 +425,7 @@
 
                         <div class="item">
 
-                            <img src="./assets/members/maya.jpg" class="img-member" alt="">
+                            <img src="./assets/members/maya.jpg" class="img-member" alt="Portrait of Maya Rueda-Cohen">
                             <h2>Maya Rueda-Cohen</h2>
                             <p>Student</p>
                             <p>University of Toronto</p>
@@ -432,7 +434,7 @@
 
                         <div class="item">
 
-                            <img src="./assets/members/sophie.jpg" class="img-member" alt="">
+                            <img src="./assets/members/sophie.jpg" class="img-member" alt="Portrait of Sophie Williams">
                             <h2>Sophie Williams</h2>
                             <p>Student</p>
                             <p>University of Toronto</p>
@@ -688,7 +690,6 @@
                         </div>
                         <h2>Ontario Morning from CBC Radio</h2>
                         <p>For people who already have poor self-image, all the talk about New Year's resolutions could make things worse. Dr. Jamie Feusner, professor at the University of Toronto talks to CBC Radio about body dysmorphic disorder.</p>
-                        <a href="#" class="more">Read More</a>
                     </div>
 
                     <div class="item">
@@ -765,14 +766,14 @@
 
                         <div class="social">
 
-                            <a href="https://www.facebook.com/profile.php?id=100086525590214">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <a href="https://www.facebook.com/profile.php?id=100086525590214" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
                                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                             </svg>
                             </a>
             
-                            <a href="https://www.instagram.com/bbplab/">
-                                <svg xmlns="https://www.instagram.com/bbplab/" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <a href="https://www.instagram.com/bbplab/" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
                                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                                 </svg>
                             </a>
@@ -787,8 +788,8 @@
 
                             -->
             
-                            <a href="https://twitter.com/BDD_anorexia">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <a href="https://twitter.com/BDD_anorexia" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
                                 <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
                             </svg>
                             </a>
@@ -799,7 +800,7 @@
 
                     <div class="item">
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6865.162281394165!2d-79.40459846875949!3d43.65971047383497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cd24280722b1%3A0x2f0213befe8a5b56!2sCAMH%20Head%20Office!5e0!3m2!1sen!2sin!4v1640254820059!5m2!1sen!2sin"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6865.162281394165!2d-79.40459846875949!3d43.65971047383497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cd24280722b1%3A0x2f0213befe8a5b56!2sCAMH%20Head%20Office!5e0!3m2!1sen!2sin!4v1640254820059!5m2!1sen!2sin" title="CAMH Head Office on Google Maps" loading="lazy"></iframe>
                         
                     </div>
 
@@ -819,11 +820,11 @@
             <div class="aside-content">
 
                 <div class="item">
-                    <img src="./assets/logo/utoronto.png" alt="UToronto">
+                    <img src="./assets/logo/utoronto.png" alt="University of Toronto">
                 </div>
-    
+
                 <div class="item">
-                    <img src="./assets/logo/camh.png" alt="CAMH">
+                    <img src="./assets/logo/camh.png" alt="Centre for Addiction and Mental Health (CAMH)">
                 </div>
 
             </div>
@@ -836,7 +837,7 @@
 
         <div class="footer-content">
 
-            <p id="copyright">© 2025 University of Toronto</p>
+            <p id="copyright">© 2026 University of Toronto</p>
 
         </div>
 

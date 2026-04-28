@@ -298,7 +298,7 @@ aside > .aside-content h2{
     margin-left: 3rem;
 }
 
-#research-studies .item #email{
+#research-studies .item .email{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
