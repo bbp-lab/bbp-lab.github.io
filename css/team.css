@@ -104,6 +104,17 @@ main > section > .section-content{
     font-weight: 600;
 }
 
+#team .website{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#team .website span{
+    margin-left: 0.5rem;
+}
+
 #team .email{
     display: flex;
     align-items: center;
@@ -111,6 +122,7 @@ main > section > .section-content{
     margin-bottom: 1rem;
 }
 
+#team .website svg, 
 #team .email svg{
     width: 1.5rem;
     height: 1.5rem;
@@ -133,6 +145,10 @@ main > section > .section-content{
 
     #team h2, .title, .affiliation{
         text-align: left;
+    }
+
+    #team .website{
+        justify-content: left;
     }
 
     #team .email{
