@@ -333,6 +333,23 @@ aside > .aside-content h2{
     text-align: center;
     color: var(--accent2);
 }
+
+.study-links {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 75px;
+  row-gap: 5px;
+  margin-top: 5px;
+  max-width: 620px;
+  justify-content: center;
+}
+
+.study-links .more {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
   
 /*=======================================================================*/
 /*Team*/
