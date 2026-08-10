@@ -175,9 +175,54 @@ main > section p{
     font-family: 'Roboto', sans-serif;
 }
 
+#about .banner{
+    margin: 0 auto;
+    width: 65%;
+    height: 25rem;
+    margin-top: 4rem;
+    overflow: hidden;
+}
 /*=======================================================================*/
 /*Symptoms*/
 /*=======================================================================*/
+
+/*=======================================================================*/
+/*Publications*/
+/*=======================================================================*/
+#publications .date{
+    font-size: 0.75rem;
+    letter-spacing: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+#publications .grid-wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #publications .grid-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#publications .item > h2{
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: left;
+}
+
+#publications .item > h2::after{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0rem;
+    height: 2px;
+    width: 25%;
+    background-color: var(--white2);
+}
 
 /*=======================================================================*/
 /*Treatment*/
